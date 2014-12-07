@@ -123,17 +123,13 @@
     <Content Include="Upload\BannerImage\2p.jpg" />
     <Content Include="Upload\BannerImage\3.jpg" />
     <Content Include="Upload\BannerImage\3p.jpg" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
     <Content Include="userinfo.aspx" />
     <Content Include="Uploads\HW_Solution.pdf" />
     <Content Include="Uploads\register.pdf" />
     <Content Include="Uploads\Solution_HW3.pdf" />
-    <Content Include="Web.config" />
-    <Content Include="Web.Debug.config">
-      <DependentUpon>Web.config</DependentUpon>
-    </Content>
-    <Content Include="Web.Release.config">
-      <DependentUpon>Web.config</DependentUpon>
-    </Content>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AboutUs.aspx.cs">
